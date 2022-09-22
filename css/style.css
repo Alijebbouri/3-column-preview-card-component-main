@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+body{
+    font-family: "lexend deca", sans-serif;
+    color: white;
+    background-color: hsl(0, 0%, 95%);
+    margin-left: 60px;
+}
+#GlobalPart{
+    display: flex;
+    margin: 150px 150px 150px 220px;
+}
+#firstPart{
+    background-color: #e28525;
+    height: 320px;
+    width: 250px;
+    padding-left: 25px;
+    border-radius: 10px 0 0 10px;
+}
+#secondPart{
+    background-color: #016972;
+    height: 320px;
+    width: 250px;
+    padding-left: 25px;
+}
+#thirdPart{
+    background-color:#00403f ;
+    height: 320px;
+    width: 250px;
+    padding-left: 25px;
+    border-radius: 0 10px 10px 0;
+}
+button{
+border-radius: 50px;
+height: 40px;
+width: 100px;
+border: 1px solid white;
+}
+#h1 {
+    background-color:white;
+    color: #e28525;
+}
+#h2 {
+    background-color:white;
+    color: #016972;
+}
+#h3 {
+    background-color:white;
+    color: #00403f;
+}
+#h1:hover {
+    background-color: #e28525;
+    color: white;
+}
+#h2:hover {
+    background-color:#016972;
+    color: white;
+}
+#h3:hover {
+    background-color:#00403f;
+    color: white;
+}
+.image {
+    margin: 15px 0;
+}
+.attribution{
+    color: black;
+}
+@media screen and (max-width:600px){
+    #GlobalPart{
+        display: inline-block;
+    }
+    #firstPart {
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0;
+    } 
+    #thirdPart{
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 10px;
+    }
+}
